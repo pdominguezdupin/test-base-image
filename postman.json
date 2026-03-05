@@ -1,0 +1,38 @@
+{
+  "info": {
+    "_postman_id": "fffe78b9-6268-46ce-9343-a90e6459bcbd",
+    "name": "api-5",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [],
+  "event": [
+    {
+      "listen": "prerequest",
+      "script": {
+        "type": "text/javascript",
+        "packages": {},
+        "exec": [""]
+      }
+    },
+    {
+      "listen": "test",
+      "script": {
+        "type": "text/javascript",
+        "packages": {},
+        "exec": [""]
+      }
+    }
+  ],
+  "variable": [
+    {
+      "key": "api5BackendHost",
+      "value": "http://localhost:<PORT>",
+      "type": "string"
+    },
+    {
+      "key": "api5BearerToken",
+      "value": "<token>",
+      "type": "string"
+    }
+  ]
+}
