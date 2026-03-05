@@ -13,7 +13,7 @@ export class HealthController {
       const environment: string = await getServiceEnvironment();
       res.status(200).json({
         success: true,
-        health: 'Up! Nuevo mensaje de la suerte',
+        health: 'Up! Nuevo mensaje de la suerte fran sape',
         version,
         environment,
       });
