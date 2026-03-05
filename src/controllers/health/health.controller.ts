@@ -13,7 +13,7 @@ export class HealthController {
       const environment: string = await getServiceEnvironment();
       res.status(200).json({
         success: true,
-        health: 'Up! Grego se la morfa doblada pero igual sape, aunque le guste la japi. mentira pero alarga el mensaje. mentira que solo la japi tambien le gustan los travestis',
+        health: 'Up! Nuevo mensaje de la suerte',
         version,
         environment,
       });
