@@ -1,6 +1,6 @@
 {
   "name": "api-5",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Backend project generated with Sundays Framework",
   "main": "dist/server.js",
   "scripts": {
